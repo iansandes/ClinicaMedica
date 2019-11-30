@@ -1,0 +1,5 @@
+D:\Learning\ClinicaMedica\ClinicaMedica\ClinicaMedica.Domain\bin\Debug\ClinicaMedica.Domain.dll
+D:\Learning\ClinicaMedica\ClinicaMedica\ClinicaMedica.Domain\bin\Debug\ClinicaMedica.Domain.pdb
+D:\Learning\ClinicaMedica\ClinicaMedica\ClinicaMedica.Domain\obj\Debug\ClinicaMedica.Domain.dll
+D:\Learning\ClinicaMedica\ClinicaMedica\ClinicaMedica.Domain\obj\Debug\ClinicaMedica.Domain.pdb
+D:\Learning\ClinicaMedica\ClinicaMedica\ClinicaMedica.Domain\obj\Debug\ClinicaMedica.Domain.csprojAssemblyReference.cache
