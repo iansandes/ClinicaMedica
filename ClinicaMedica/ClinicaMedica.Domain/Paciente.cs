@@ -9,7 +9,7 @@ namespace ClinicaMedica.Domain
         public int Idade { get; set; }
         public DateTime DataNascimento { get; set; }
         public char Sexo { get; set; }
-        public string Convenio { get; set; }
         public int Telefone { get; set; }
     }
 }
+
