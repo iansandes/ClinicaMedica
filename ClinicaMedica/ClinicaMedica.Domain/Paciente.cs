@@ -8,8 +8,8 @@ namespace ClinicaMedica.Domain
         public string Nome { get; set; }
         public int Idade { get; set; }
         public DateTime DataNascimento { get; set; }
-        public char Sexo { get; set; }
-        public int Telefone { get; set; }
+        public string Sexo { get; set; }
+        public string Telefone { get; set; }
     }
 }
 

@@ -76,8 +76,8 @@ D:\Learning\ClinicaMedica\ClinicaMedica\ClinicaMedica\bin\Newtonsoft.Json.xml
 D:\Learning\ClinicaMedica\ClinicaMedica\ClinicaMedica\bin\Antlr3.Runtime.pdb
 D:\Learning\ClinicaMedica\ClinicaMedica\ClinicaMedica\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Learning\ClinicaMedica\ClinicaMedica\ClinicaMedica\obj\Debug\ClinicaMedica.csprojAssemblyReference.cache
+D:\Learning\ClinicaMedica\ClinicaMedica\ClinicaMedica\obj\Debug\ClinicaMedica.Migrations.v2.resources
+D:\Learning\ClinicaMedica\ClinicaMedica\ClinicaMedica\obj\Debug\ClinicaMedica.csproj.GenerateResource.cache
 D:\Learning\ClinicaMedica\ClinicaMedica\ClinicaMedica\obj\Debug\ClinicaMedica.csproj.CopyComplete
 D:\Learning\ClinicaMedica\ClinicaMedica\ClinicaMedica\obj\Debug\ClinicaMedica.dll
 D:\Learning\ClinicaMedica\ClinicaMedica\ClinicaMedica\obj\Debug\ClinicaMedica.pdb
-D:\Learning\ClinicaMedica\ClinicaMedica\ClinicaMedica\obj\Debug\ClinicaMedica.Migrations.v1.resources
-D:\Learning\ClinicaMedica\ClinicaMedica\ClinicaMedica\obj\Debug\ClinicaMedica.csproj.GenerateResource.cache

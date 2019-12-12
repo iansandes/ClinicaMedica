@@ -10,6 +10,6 @@ namespace ClinicaMedica.Domain
         public DateTime DataNascimento { get; set; }
         public string Especialidade { get; set; }
         public float Salario { get; set; }
-        public int Telefone { get; set; }
+        public string Telefone { get; set; }
     }
 }
