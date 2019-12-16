@@ -80,10 +80,31 @@ namespace ClinicaMedica.Controllers
             return RedirectToAction("Index");
         }
 
-        [Route("deletar/id:{int}")]
-        public ActionResult Deletar()
+        [Route("deletar")]
+        public ActionResult Deletar(int id)
         {
-            return View();
+            var paciente = _db.Pacientes.Find(id);
+            var model = new PacienteViewModel()
+            {
+                Nome = paciente.Nome,
+                Idade = paciente.Idade,
+                DataNascimento = paciente.DataNascimento.Date,
+                Sexo = paciente.Sexo,
+                Telefone = paciente.Telefone
+            };
+
+            return View(model);
+        }
+
+        [Route("deletar")]
+        [HttpPost]
+        public ActionResult Deletar(PacienteViewModel pacienteModel)
+        {
+            var paciente = _db.Pacientes.Find(pacienteModel.Id);
+            _db.Pacientes.Remove(paciente);
+            _db.SaveChanges();
+
+            return RedirectToAction("Index");
         }
 
 

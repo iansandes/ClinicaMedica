@@ -150,6 +150,7 @@
     <Compile Include="Repositories\Contracts\IPacienteRepository.cs" />
     <Compile Include="Repositories\MedicoRepository.cs" />
     <Compile Include="Repositories\PacienteRepository.cs" />
+    <Compile Include="ViewModels\MedicoViewModel.cs" />
     <Compile Include="ViewModels\PacienteViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -191,11 +192,15 @@
     <Content Include="Views\Paciente\Index.cshtml" />
     <Content Include="Views\Paciente\Criar.cshtml" />
     <Content Include="Views\Paciente\Editar.cshtml" />
+    <Content Include="Views\Paciente\Deletar.cshtml" />
+    <Content Include="Views\Medico\Index.cshtml" />
+    <Content Include="Views\Medico\Criar.cshtml" />
+    <Content Include="Views\Medico\Editar.cshtml" />
+    <Content Include="Views\Medico\Deletar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Consulta\" />
-    <Folder Include="Views\Medico\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

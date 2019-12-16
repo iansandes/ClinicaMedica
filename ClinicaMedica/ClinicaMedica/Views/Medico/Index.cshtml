@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ClinicaMedica.Domain.Paciente>
+﻿@model IEnumerable<ClinicaMedica.Domain.Medico>
 
 @{
     ViewBag.Title = "Index";
@@ -7,7 +7,7 @@
 <h2>Index</h2>
 
 <p>
-    @Html.ActionLink("Cadastrar Paciente", "Criar")
+    @Html.ActionLink("Cadastrar novo médico", "Criar")
 </p>
 <table class="table">
     <tr>
@@ -21,7 +21,10 @@
             @Html.DisplayNameFor(model => model.DataNascimento)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Sexo)
+            @Html.DisplayNameFor(model => model.Especialidade)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Salario)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Telefone)
@@ -41,7 +44,10 @@
             @Html.DisplayFor(modelItem => item.DataNascimento)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Sexo)
+            @Html.DisplayFor(modelItem => item.Especialidade)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Salario)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Telefone)
@@ -54,4 +60,3 @@
 }
 
 </table>
-
